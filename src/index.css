@@ -13,11 +13,12 @@ code {
 }
 
 body{
-  background-image: linear-gradient(to right, rgba(255,0,0,0), black);
+  background-image: linear-gradient(to right, #cff9fa, rgb(150, 93, 93));
 }
 
 .con{
-  background-image: linear-gradient(to right, yellow, green);
+  /* background-image: linear-gradient(to right, #cff9fa, gold); */
+  backdrop-filter: blur(200px);
   border-radius: 10px;
 }
 
@@ -40,4 +41,8 @@ body{
 
 #con{
   font-family: 'Jost', Courier, monospace;
+}
+
+.hide{
+  visibility: hidden;
 }
