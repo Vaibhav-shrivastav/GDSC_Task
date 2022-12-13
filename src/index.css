@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), black);
+}
+
+.con{
+  background-image: linear-gradient(to right, yellow, green);
+  border-radius: 10px;
+}
+
+.box{
+  transition: 1.1s;
+  background-image: url('./balls.jpg');
+}
+
+.box:hover{
+  transform: scale(1.09);
+}
+
+.eth{
+  color: black;
+}
+
+#head{
+  font-family: 'Poppins', Courier, monospace;
+}
+
+#con{
+  font-family: 'Jost', Courier, monospace;
+}
